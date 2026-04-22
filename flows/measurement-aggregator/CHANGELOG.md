@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/didier-wenzek/tedge-flows-examples/compare/measurement-aggregator-v1.0.0...measurement-aggregator-v2.0.0) (2026-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* use new params variable reference syntax ([#114](https://github.com/didier-wenzek/tedge-flows-examples/issues/114))
+
+### Features
+
+* add measurement aggregator ([#101](https://github.com/didier-wenzek/tedge-flows-examples/issues/101)) ([f9ab8d5](https://github.com/didier-wenzek/tedge-flows-examples/commit/f9ab8d585e7af6c74d3a050314500691f39d7844))
+
+
+### Code Refactoring
+
+* use new params variable reference syntax ([#114](https://github.com/didier-wenzek/tedge-flows-examples/issues/114)) ([47ec828](https://github.com/didier-wenzek/tedge-flows-examples/commit/47ec828990ec2082d0f12b51d57b6e7d4327beef))
+
 ## [1.0.0](https://github.com/thin-edge/tedge-flows-examples/compare/measurement-aggregator-v0.1.0...measurement-aggregator-v1.0.0) (2026-03-28)
 
 

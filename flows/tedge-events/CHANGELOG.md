@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/didier-wenzek/tedge-flows-examples/compare/tedge-events-v1.0.0...tedge-events-v2.0.0) (2026-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* use new params variable reference syntax ([#114](https://github.com/didier-wenzek/tedge-flows-examples/issues/114))
+
+### Features
+
+* add new tedge-events flow ([#90](https://github.com/didier-wenzek/tedge-flows-examples/issues/90)) ([f5268e3](https://github.com/didier-wenzek/tedge-flows-examples/commit/f5268e395b7b0a078750ba82448a6f6a8697765d))
+
+
+### Code Refactoring
+
+* use new params variable reference syntax ([#114](https://github.com/didier-wenzek/tedge-flows-examples/issues/114)) ([47ec828](https://github.com/didier-wenzek/tedge-flows-examples/commit/47ec828990ec2082d0f12b51d57b6e7d4327beef))
+
 ## [1.0.0](https://github.com/thin-edge/tedge-flows-examples/compare/tedge-events-v0.1.0...tedge-events-v1.0.0) (2026-03-28)
 
 

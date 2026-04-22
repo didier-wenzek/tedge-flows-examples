@@ -1,6 +1,6 @@
 {
   "name": "tedge-config-context",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Add configuration to the context so it is accessible for other flows",
   "source": "src/main.ts",
   "module": "lib/main.js",
