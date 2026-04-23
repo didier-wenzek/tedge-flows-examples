@@ -33,6 +33,7 @@ export function onMessage(message: Message, context: FlowContext): Message[] {
       key = `${measurement}_val${index}`;
     }
     output.push({
+      time: time * 1000,
       topic,
       payload: `{"time": ${time}, "${group}": {"${key}": ${value}}}`,
     });

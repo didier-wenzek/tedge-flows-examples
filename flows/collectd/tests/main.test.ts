@@ -19,6 +19,7 @@ describe("map collectd messages", () => {
       time: 1776866602.745439166,
       temperature: { temp1: 23.7 },
     });
+    expect(output[0].time == 1776866602745.0);
   });
 
   test("combined values", () => {
@@ -33,18 +34,21 @@ describe("map collectd messages", () => {
     expect(output).toHaveLength(3);
 
     expect(output[0].topic).toBe("te/device/main///m/collectd");
+    expect(output[0].time == 1776866602745.0);
     expect(tedge.decodeJsonPayload(output[0].payload)).toEqual({
       time: 1776866602.745439166,
       temperature: { temp_val0: 23.7 },
     });
 
     expect(output[1].topic).toBe("te/device/main///m/collectd");
+    expect(output[1].time == 1776866602745.0);
     expect(tedge.decodeJsonPayload(output[1].payload)).toEqual({
       time: 1776866602.745439166,
       temperature: { temp_val1: 24.0 },
     });
 
     expect(output[2].topic).toBe("te/device/main///m/collectd");
+    expect(output[2].time == 1776866602745.0);
     expect(tedge.decodeJsonPayload(output[2].payload)).toEqual({
       time: 1776866602.745439166,
       temperature: { temp_val2: 25.8 },
